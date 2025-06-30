@@ -262,7 +262,7 @@ def explain_prediction(request: ExplainRequest):
         """
         
         
-        model = genai.GenerativeModel('gemini-1.5-flash')  # type: ignore
+        model = genai.GenerativeModel('gemini-2.5-flash')  # type: ignore
         response = model.generate_content(prompt)
 
        
