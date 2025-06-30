@@ -7,7 +7,6 @@ import os
 import json
 from contextlib import asynccontextmanager
 from dotenv import load_dotenv
-import shap
 import google.generativeai as genai
 
 # Cargar variables de entorno desde el archivo .env
